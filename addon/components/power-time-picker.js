@@ -1,5 +1,6 @@
 import Component from '@ember/component';
-import { action, computed } from '@ember/object';
+import { action } from '@ember/object';
+import { tracked } from '@glimmer/tracking';
 import moment from 'moment';
 import roundTime from '../utils/round-time';
 import { indexOfOption } from 'ember-power-select/utils/group-utils';
